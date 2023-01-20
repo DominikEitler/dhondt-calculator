@@ -1,0 +1,50 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #0f0e0e;
+}
+
+body {
+  background-color: #fffbed;
+}
+
+header {
+  background-color: #84bf65;
+  padding: 10px;
+}
+
+h1 {
+  max-width: 350px;
+  margin: auto;
+}
+
+main {
+  padding: 40px;
+  width: max-content;
+  margin: auto;
+}
+
+.form {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: 100px 50px;
+  column-gap: 10px;
+  row-gap: 5px;
+
+  margin-bottom: 30px;
+}
+
+.form label {
+  text-align: end;
+}
+
+h3 {
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+#votes {
+  font-weight: bold;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>d'Hondt Rechner</title>
+
+    <link rel="stylesheet" href="styles.css" />
+    <script src="index.js" defer></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>d'Hondt Rechner</h1>
+    </header>
+    <main>
+      <div class="form">
+          <label for="pro">Dafür:</label>
+          <input name="pro" id="pro" type="number" value="0" min="0" />
+
+          <label for="con">Dagegen:</label>
+          <input name="con" id="con" type="number" value="0" min="0" />
+
+          <label for="abs">Enthaltung:</label>
+          <input name="abs" id="abs" type="number" value="0" min="0" />
+      </div>
+
+      <div>
+        <h3>Ergebnis:</h3>
+        <p><span id="votes">0/0/0</span> (Ja/Nein/Enth.)</p>
+      </div>
+    </main>
+  </body>
+</html>

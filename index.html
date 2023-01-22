@@ -17,14 +17,36 @@
     </header>
     <main>
       <div class="form">
-          <label for="pro">Dafür:</label>
-          <input name="pro" id="pro" type="number" value="0" min="0" autofocus />
+        <label for="pro">Dafür:</label>
+        <input
+          name="pro"
+          id="pro"
+          type="number"
+          value="0"
+          min="0"
+          autofocus
+          onfocus="this.select();"
+        />
 
-          <label for="con">Dagegen:</label>
-          <input name="con" id="con" type="number" value="0" min="0" />
+        <label for="con">Dagegen:</label>
+        <input
+          name="con"
+          id="con"
+          type="number"
+          value="0"
+          min="0"
+          onfocus="this.select();"
+        />
 
-          <label for="abs">Enthaltung:</label>
-          <input name="abs" id="abs" type="number" value="0" min="0" />
+        <label for="abs">Enthaltung:</label>
+        <input
+          name="abs"
+          id="abs"
+          type="number"
+          value="0"
+          min="0"
+          onfocus="this.select();"
+        />
       </div>
 
       <div>
